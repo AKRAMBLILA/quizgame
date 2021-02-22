@@ -13,7 +13,7 @@ body{
     top:50%;
     left:50%;
     transform:translate(-50%, -50%);
-    background-color: rgba(51, 51, 51, 0.664);
+    background-color: rgba(51, 51, 51, 0.801);
     width: 40%;  
     margin: auto;
     height: 35%;
@@ -23,10 +23,10 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content:space-around ;
-    display: none;
+   
 }
 .title{
-    color: white;
+    color: #EECC72;
     font-size: 60px;
 }
 .input0 {
@@ -47,7 +47,7 @@ body{
 }
 .input0 input:last-child{
     background-color: #4c8116;
-    color : white;
+    color : #EECC72;
     margin-bottom: 10%;
     width: 130px;
     padding: 10px 20px;
@@ -63,13 +63,14 @@ body{
 #menu{
     height: 80%;
     width: 80%;
-    background:rgba(51, 51, 51, 0.664);
+    background:rgba(51, 51, 51, 0.767);
     color: white;
     margin:auto;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
+    cursor:default;
 }
 
 .leave{
@@ -82,6 +83,7 @@ body{
 .hhelp img, .leave img{
     width: 50px;
     height: 50px;
+    cursor: pointer;
 }
 
 #menu > div:first-child{
@@ -89,7 +91,7 @@ body{
     flex-direction: column;
     align-items: center;
     position: absolute;
-    top: 30%;
+    top: 35%;
     left: 50%;
     transform: translate(-50%,-30%);
 }
@@ -108,38 +110,41 @@ body{
     text-align: center;
     margin: auto;
     height: 7%;
-    background: #D8D270;
-    color: white;
+    background: #314e14;
+    color: #EECC72;
     padding: 10px;
     border-radius: 30px;
+    margin-bottom: 20px;
 }
-
-.answer{
-    display: flex;
-}
-
-
 
 .answer > span{
     margin-right: 10px;
     background: #314e14;
-    height: 20px;width: 20px;
+    padding: 1px 5px;
     border-radius: 50%;
     text-align: center;
     color: #EECC72;
     font-weight: bold;
-
+    text-align: center;
 }
 
 .answer{
-    padding: 5px 8px;
+    display: flex;
+    align-items: center;
+    padding: 8px 3px;
     margin-bottom: 10px;
     background-color: #EECC72;
     border-radius: 10px;
     font-weight: bolder;
     color: #314e14;
+    cursor: pointer;
 }
-
+.answer:hover{
+    background-color: #d1b569;
+}
+.answ{
+    font-size: 20px;
+}
 .answers{
     display: grid;
     grid-template-columns: 3fr 1fr 3fr;
@@ -174,9 +179,40 @@ body{
     grid-column: 2/3;
     grid-row: 1/ 3;
     text-align: center;
-    border-radius:10% ;
+    border-radius:10px ;
     background-color: #EECC72;
     color: #314e14;
     font-size: x-large;
     font-weight: bold;
+    padding: 7px 0;
 }
+.score{
+    padding: 10px;
+    background-color: #EECC72;
+    color: #314e14;
+    border-radius: 15px;
+    text-align: center;
+    font-size: x-large;
+    font-weight: bold;
+    width: 100px;
+}
+.score-list{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 40px;
+    left: 10px;
+}
+.sc{
+    width: 100px;
+    padding: 5px;
+    border-radius: 5px;
+    color: #EECC72;
+    border-radius: 15px;
+    text-align: left;
+    font-size: x-large;
+    font-weight: bold;
+    margin-bottom: 3px;
+    padding-left: 9px;
+}
+
