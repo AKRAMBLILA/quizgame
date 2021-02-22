@@ -1,98 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Quiz Game</title>
+        <link rel="stylesheet" href="/css/style.css" />
+        <link rel="shortcut icon" href="./image/puzzle-piece.png" />
+    </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Quiz Game</title>
-  <link rel="stylesheet" href="/css/style.css">
-  <link rel="shortcut icon" href="./image/puzzle-piece.png" />
+    <body>
+        <!--------- welcome to game  ------------>
 
-</head>
-
-<body>
-  <!--------- welcome to game  ------------>
-
-  <div id="presentation">
-    <h1 class="title">Quiz Game</h1>
-    <div class="input0">
-      <input type="text" placeholder="Enter Name" id="name">
-      <input type="submit" value="Start" class="btn-start">
-    </div>
-  </div>
-
-  <section id="menu">
-    <div>
-      <!----------- Help of player ------------>
-      <div class="hhelp">
-        <div class="fefty">
-          <img src="./image/fefty.png" alt="">
-        </div>
-        <div class="call-friend">
-          <img src="./image/friend.png" alt="">
-        </div>
-        <div class="public">
-          <img src="./image/public.png" alt="">
-        </div>
-      </div>
-
-      <!-----------Question------------->
-
-      <div class="question">
-        <h2 class="qu">what is tdi ?</h2>
-      </div>
-
-      <!-----------answers-------------->
-
-      <div class="answers">
-        <!-- left Side -->
-        <div class="answer answer1">
-          <span>1</span>
-          <p class="an1 answ">Question 1</p>
-        </div>
-        <div class="answer answer2">
-          <span>2</span>
-          <p class="an2 answ">Question 2</p>
-        </div>
-        <!---------- count-down ----------->
-        <div class="count-down">
-          <span>1:00</span>
-        </div>
-        <!-- Right Side -->
-        <div class="answer answer3">
-          <span>3</span>
-          <p class="an3 answ">Question 3</p>
-        </div>
-        <div class="answer answer4">
-          <span>4</span>
-          <p class="an4 answ">Question 4</p>
+        <div id="presentation">
+            <h1 class="title">Quiz Game</h1>
+            <div class="input0">
+                <input type="text" placeholder="Enter Name" id="name" />
+                <input type="submit" value="Start" class="btn-start" />
+            </div>
         </div>
 
-      </div>
+        <section id="menu">
+            <div>
+                <!----------- Help of player ------------>
+                <div class="hhelp">
+                    <div class="fefty">
+                        <img src="./image/fefty.png" alt="" />
+                    </div>
+                    <div class="call-friend">
+                        <img src="./image/friend.png" alt="" />
+                    </div>
+                    <div class="public">
+                        <img src="./image/public.png" alt="" />
+                    </div>
+                </div>
 
+                <!-----------Question------------->
 
-    </div>
-    <!----------- leave -------------->
+                <div class="question">
+                    <h2 class="qu">what is tdi ?</h2>
+                </div>
 
-    <div class="leave">
-        <img src="./image/exit.png" alt="">
-    </div>
-    <div class="score-list">
-      <div class="sc" id="sc10">$ 1M </div>
-      <div class="sc" id="sc9">$ 900K </div>
-      <div class="sc" id="sc8">$ 800K </div>
-      <div class="sc" id="sc7">$ 500K </div>
-      <div class="sc" id="sc6">$ 200K </div>
-      <div class="sc" id="sc5">$ 100K </div>
-      <div class="sc" id="sc4">$ 50K </div>
-      <div class="sc" id="sc3">$ 10K </div>
-      <div class="sc" id="sc2">$ 5K </div>
-      <div class="sc" id="sc1">$ 1K </div>
-    </div>
-  </section>
-  <!------- java script declaration ----->
-  <script src="/js/script.js"></script>
-</body>
+                <!-----------answers-------------->
 
+                <div class="answers">
+                    <!-- left Side -->
+                    <div class="answer answer1">
+                        <span>1</span>
+                        <p class="an1 answ" onclick="_click()">Question 1</p>
+                    </div>
+                    <div class="answer answer2">
+                        <span>2</span>
+                        <p class="an2 answ" onclick="_click()">Question 2</p>
+                    </div>
+                    <!---------- count-down ----------->
+                    <div class="count-down">
+                        <span>1:00</span>
+                    </div>
+                    <!-- Right Side -->
+                    <div class="answer answer3">
+                        <span>3</span>
+                        <p class="an3 answ" onclick="_click()">Question 3</p>
+                    </div>
+                    <div class="answer answer4">
+                        <span>4</span>
+                        <p class="an4 answ" onclick="_click()">Question 4</p>
+                    </div>
+                </div>
+            </div>
+            <!----------- leave -------------->
+
+            <div class="leave">
+                <img src="./image/exit.png" alt="" />
+            </div>
+            <div class="score-list">
+                <div class="sc" id="sc10">$ 1M</div>
+                <div class="sc" id="sc9">$ 900K</div>
+                <div class="sc" id="sc8">$ 800K</div>
+                <div class="sc" id="sc7">$ 500K</div>
+                <div class="sc" id="sc6">$ 200K</div>
+                <div class="sc" id="sc5">$ 100K</div>
+                <div class="sc" id="sc4">$ 50K</div>
+                <div class="sc" id="sc3">$ 10K</div>
+                <div class="sc" id="sc2">$ 5K</div>
+                <div class="sc" id="sc1">$ 1K</div>
+            </div>
+        </section>
+        <!------- java script declaration ----->
+        <script src="/js/script.js"></script>
+    </body>
 </html>
