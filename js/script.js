@@ -14,12 +14,17 @@ var an4 = document.querySelector(".an4");
 // --------Style-------------------
 menu.style.visibility="hidden";
 // ---------------------------------
+var q=0;
 var number_question=0;
 var time_left = 15;
-
+var win=document.querySelector(".win");
+var lose=document.querySelector(".win");
+var swi=Math.floor(Math.random()*5)+1;
+win.style.visibility='hidden';
 
 // function for star
 document.querySelector(".btn-start").addEventListener("click",function(){
+
     if(_name.value === ""){
         alert("enter your name !!");
     }else{
@@ -27,6 +32,7 @@ document.querySelector(".btn-start").addEventListener("click",function(){
         presentation.style.visibility="hidden";
         menu.style.visibility="visible";
         document.querySelector(".count-down").style.background='';
+        questionchange();
     }
 });
 
@@ -47,7 +53,8 @@ var downloadTimer = setInterval(function(){
         if(time_left <= 10){
             document.querySelector(".count-down").style.background='red';
             if(time_left == 0){
-                change();
+                win.style.visibility='visible';
+                lose.innerHTML='You Lose ! you can try again ';
             }
         }
     }
@@ -62,6 +69,7 @@ function change(){
     time_left = 15;
     document.querySelector(".count-down").style.background='';
 }
+
 
 // function for question and answers
 function number_qe(){
@@ -135,5 +143,144 @@ function number_qe(){
             an2.innerHTML ="true";
             an3.innerHTML ="www";
             an4.innerHTML ="www";
+    }
+}
+
+function questionchange(){
+    q++;
+    document.getElementById("sc"+q).style.backgroundColor='#314e14';
+    document.getElementById("sc"+(q-1)).style.background='';
+    if(q<=3 && q>0)
+    {
+        easyQus();
+    }else if(q<=7 && q>3)
+    {
+        moyQus();
+    }else if(q<=10 && q>7){
+        hardQus();
+    }
+    
+    time_left = 15;
+    document.querySelector(".count-down").style.background='';
+    
+}
+
+function easyQus(){
+    switch(swi){
+        case 1:
+            question.innerHTML ="easyaaaaaaaaaaaaaaaaaa";
+            an1.innerHTML ="true";
+            an2.innerHTML ="aaa";
+            an3.innerHTML ="aaa";
+            an4.innerHTML ="aaa";
+        break;
+        case 2:
+            question.innerHTML ="easybbbbbbbbbbbbbbbbbbb";
+            an1.innerHTML ="bbb";
+            an2.innerHTML ="bbb";
+            an3.innerHTML ="true";
+            an4.innerHTML ="bbb";
+        break;
+        case 3:
+            question.innerHTML ="easyccccccccccccccccccc";
+            an1.innerHTML ="ccc";
+            an2.innerHTML ="true";
+            an3.innerHTML ="ccc";
+            an4.innerHTML ="ccc";
+        break;
+        case 4:
+            question.innerHTML ="easyeeeeeeeeeeeeeeeeeeee";
+            an1.innerHTML ="eee";
+            an2.innerHTML ="eee";
+            an3.innerHTML ="eee";
+            an4.innerHTML ="true";
+        break;
+        case 5:
+            question.innerHTML ="easyffffffffffffffffffff";
+            an1.innerHTML ="fff";
+            an2.innerHTML ="fff";
+            an3.innerHTML ="fff";
+            an4.innerHTML ="true";
+        break;
+    }
+}
+
+function moyQus(){
+    switch(swi){
+        case 1:
+            question.innerHTML ="moyaaaaaaaaaaaaaaaaaa";
+            an1.innerHTML ="true";
+            an2.innerHTML ="aaa";
+            an3.innerHTML ="aaa";
+            an4.innerHTML ="aaa";
+        break;
+        case 2:
+            question.innerHTML ="moybbbbbbbbbbbbbbbbbbb";
+            an1.innerHTML ="bbb";
+            an2.innerHTML ="bbb";
+            an3.innerHTML ="true";
+            an4.innerHTML ="bbb";
+        break;
+        case 3:
+            question.innerHTML ="moyccccccccccccccccccc";
+            an1.innerHTML ="ccc";
+            an2.innerHTML ="true";
+            an3.innerHTML ="ccc";
+            an4.innerHTML ="ccc";
+        break;
+        case 4:
+            question.innerHTML ="moyeeeeeeeeeeeeeeeeeeee";
+            an1.innerHTML ="eee";
+            an2.innerHTML ="eee";
+            an3.innerHTML ="eee";
+            an4.innerHTML ="true";
+        break;
+        case 5:
+            question.innerHTML ="moyffffffffffffffffffff";
+            an1.innerHTML ="fff";
+            an2.innerHTML ="fff";
+            an3.innerHTML ="fff";
+            an4.innerHTML ="true";
+        break;
+    }
+}
+
+function hardQus(){
+    switch(swi){
+        case 1:
+            question.innerHTML ="hardaaaaaaaaaaaaaaaaaa";
+            an1.innerHTML ="true";
+            an2.innerHTML ="aaa";
+            an3.innerHTML ="aaa";
+            an4.innerHTML ="aaa";
+        break;
+        case 2:
+            question.innerHTML ="hardbbbbbbbbbbbbbbbbbbb";
+            an1.innerHTML ="bbb";
+            an2.innerHTML ="bbb";
+            an3.innerHTML ="true";
+            an4.innerHTML ="bbb";
+        break;
+        case 3:
+            question.innerHTML ="hardccccccccccccccccccc";
+            an1.innerHTML ="ccc";
+            an2.innerHTML ="true";
+            an3.innerHTML ="ccc";
+            an4.innerHTML ="ccc";
+        break;
+        case 4:
+            question.innerHTML ="hardeeeeeeeeeeeeeeeeeeee";
+            an1.innerHTML ="eee";
+            an2.innerHTML ="eee";
+            an3.innerHTML ="eee";
+            an4.innerHTML ="true";
+        break;
+        case 5:
+            question.innerHTML ="hardffffffffffffffffffff";
+            an1.innerHTML ="fff";
+            an2.innerHTML ="fff";
+            an3.innerHTML ="fff";
+            an4.innerHTML ="true";
+        break;
     }
 }
