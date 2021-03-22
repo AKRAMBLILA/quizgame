@@ -116,47 +116,47 @@ function easyQus(){
         case 1:
             answer1.addEventListener("click",sa7i7);
             _event();
-            question.innerHTML ="easyaaaaaaaaaaaaaaaaaa";
-            an1.innerHTML ="true";
-            an2.innerHTML ="aaa";
-            an3.innerHTML ="aaa";
-            an4.innerHTML ="aaa";
+            question.innerHTML ="In which decade was the American Institute of Electrical Engineers (AIEE) founded?";
+            an1.innerHTML ="1850s";
+            an2.innerHTML ="1880s";
+            an3.innerHTML ="1930s";
+            an4.innerHTML ="1950s";
         break;
         case 2:
             answer3.addEventListener("click",sa7i7);
             _event();
-            question.innerHTML ="easybbbbbbbbbbbbbbbbbbb";
-            an1.innerHTML ="bbb";
-            an2.innerHTML ="bbb";
-            an3.innerHTML ="true";
-            an4.innerHTML ="bbb";
+            question.innerHTML ="What is part of a database that holds only one type of information?";
+            an1.innerHTML ="Report";
+            an2.innerHTML ="Field";
+            an3.innerHTML ="Record";
+            an4.innerHTML ="File";
         break;
         case 3:
             answer2.addEventListener("click",sa7i7);
             _event();
-            question.innerHTML ="easyccccccccccccccccccc";
-            an1.innerHTML ="ccc";
-            an2.innerHTML ="true";
-            an3.innerHTML ="ccc";
-            an4.innerHTML ="ccc";
+            question.innerHTML ="'.MPG' extension refers usually to what kind of file?";
+            an1.innerHTML ="WordPerfect Document file";
+            an2.innerHTML ="MS Office document";
+            an3.innerHTML ="Animation/movie file";
+            an4.innerHTML ="Image file";
         break;
         case 4:
             answer4.addEventListener("click",sa7i7);
             _event();
-            question.innerHTML ="easyeeeeeeeeeeeeeeeeeeee";
-            an1.innerHTML ="eee";
-            an2.innerHTML ="eee";
-            an3.innerHTML ="eee";
-            an4.innerHTML ="true";
+            question.innerHTML ="n the United States the television broadcast standard is...?";
+            an1.innerHTML ="PAL";
+            an2.innerHTML ="NTSC";
+            an3.innerHTML ="SECAM";
+            an4.innerHTML ="RGB";
         break;
         case 5:
             answer4.addEventListener("click",sa7i7);
             _event();
-            question.innerHTML ="easyffffffffffffffffffff";
-            an1.innerHTML ="fff";
-            an2.innerHTML ="fff";
-            an3.innerHTML ="fff";
-            an4.innerHTML ="true";
+            question.innerHTML ="'.JPG' extension refers usually to what kind of file?";
+            an1.innerHTML ="System file";
+            an2.innerHTML ="Animation/movie file";
+            an3.innerHTML ="MS Encarta document";
+            an4.innerHTML ="Image file";
         break;
     }
 }
@@ -166,47 +166,47 @@ function moyQus(){
         case 1:
             answer1.addEventListener("click",sa7i7);
             _event();
-            question.innerHTML ="moyaaaaaaaaaaaaaaaaaa";
-            an1.innerHTML ="true";
-            an2.innerHTML ="aaa";
-            an3.innerHTML ="aaa";
-            an4.innerHTML ="aaa";
+            question.innerHTML ="'.TXT' extension refers usually to what kind of file?";
+            an1.innerHTML ="Text File";
+            an2.innerHTML ="Image file";
+            an3.innerHTML ="Audio file";
+            an4.innerHTML ="Adobe Acrobat file";
         break;
         case 2:
             answer3.addEventListener("click",sa7i7);
             _event();
-            question.innerHTML ="moybbbbbbbbbbbbbbbbbbb";
-            an1.innerHTML ="bbb";
-            an2.innerHTML ="bbb";
-            an3.innerHTML ="true";
-            an4.innerHTML ="bbb";
+            question.innerHTML ="What is the term to ask the computer to put information in order numerically or alphabetically?";
+            an1.innerHTML ="Crop";
+            an2.innerHTML ="Report";
+            an3.innerHTML ="Record";
+            an4.innerHTML ="Sort";
         break;
         case 3:
             answer2.addEventListener("click",sa7i7);
             _event();
-            question.innerHTML ="moyccccccccccccccccccc";
-            an1.innerHTML ="ccc";
-            an2.innerHTML ="true";
-            an3.innerHTML ="ccc";
-            an4.innerHTML ="ccc";
+            question.innerHTML ="What does EPROM stand for?";
+            an1.innerHTML ="Electric Programmable Read Only Memory";
+            an2.innerHTML ="Erasable Programmable Read Only Memory";
+            an3.innerHTML ="Evaluable Philotic Random Optic Memory";
+            an4.innerHTML ="Every Person Requires One Mind";
         break;
         case 4:
             answer4.addEventListener("click",sa7i7);
             _event();
-            question.innerHTML ="moyeeeeeeeeeeeeeeeeeeee";
-            an1.innerHTML ="eee";
-            an2.innerHTML ="eee";
-            an3.innerHTML ="eee";
-            an4.innerHTML ="true";
+            question.innerHTML ="What was the active medium used in the first working laser ever constructed?";
+            an1.innerHTML ="A diamond block";
+            an2.innerHTML ="Helium-neon gas";
+            an3.innerHTML ="A ruby rod";
+            an4.innerHTML ="Carbon dioxide gas";
         break;
         case 5:
             answer4.addEventListener("click",sa7i7);
             _event();
-            question.innerHTML ="moyffffffffffffffffffff";
-            an1.innerHTML ="fff";
-            an2.innerHTML ="fff";
-            an3.innerHTML ="fff";
-            an4.innerHTML ="true";
+            question.innerHTML ="What are three types of lasers?";
+            an1.innerHTML ="Gas, metal vapor, rock";
+            an2.innerHTML ="Pointer, diode, CD";
+            an3.innerHTML ="Diode, inverted, pointer";
+            an4.innerHTML ="Gas, solid state, diode";
         break;
     }
 }
@@ -216,47 +216,47 @@ function hardQus(){
         case 1:
             answer1.addEventListener("click",sa7i7);
             _event();
-            question.innerHTML ="hardaaaaaaaaaaaaaaaaaa";
-            an1.innerHTML ="true";
-            an2.innerHTML ="aaa";
-            an3.innerHTML ="aaa";
-            an4.innerHTML ="aaa";
+            question.innerHTML ="'DB' computer abbreviation usually means ?";
+            an1.innerHTML ="Database";
+            an2.innerHTML ="Double Byte";
+            an3.innerHTML ="Data Block";
+            an4.innerHTML ="Driver Boot";
         break;
         case 2:
             answer3.addEventListener("click",sa7i7);
             _event();
-            question.innerHTML ="hardbbbbbbbbbbbbbbbbbbb";
-            an1.innerHTML ="bbb";
-            an2.innerHTML ="bbb";
-            an3.innerHTML ="true";
-            an4.innerHTML ="bbb";
+            question.innerHTML ="'.INI' extension refers usually to what kind of file?";
+            an1.innerHTML ="Image file";
+            an2.innerHTML ="System file";
+            an3.innerHTML ="Hypertext related file";
+            an4.innerHTML ="Image Color Matching Profile file";
         break;
         case 3:
             answer2.addEventListener("click",sa7i7);
             _event();
-            question.innerHTML ="hardccccccccccccccccccc";
-            an1.innerHTML ="ccc";
-            an2.innerHTML ="true";
-            an3.innerHTML ="ccc";
-            an4.innerHTML ="ccc";
+            question.innerHTML ="What frequency range is the High Frequency band?";
+            an1.innerHTML ="100 kHz";
+            an2.innerHTML ="1 GHz";
+            an3.innerHTML ="30 to 300 MHz";
+            an4.innerHTML ="3 to 30 MHz";
         break;
         case 4:
             answer4.addEventListener("click",sa7i7);
             _event();
-            question.innerHTML ="hardeeeeeeeeeeeeeeeeeeee";
-            an1.innerHTML ="eee";
-            an2.innerHTML ="eee";
-            an3.innerHTML ="eee";
-            an4.innerHTML ="true";
+            question.innerHTML ="What does VVVF stand for?";
+            an1.innerHTML ="Variant Voltage Vile Frequency";
+            an2.innerHTML ="Variable Velocity Variable Fun";
+            an3.innerHTML ="Very Very Vicious Frequency";
+            an4.innerHTML ="Variable Voltage Variable Frequency";
         break;
         case 5:
             answer4.addEventListener("click",sa7i7);
             _event();
-            question.innerHTML ="hardffffffffffffffffffff";
-            an1.innerHTML ="fff";
-            an2.innerHTML ="fff";
-            an3.innerHTML ="fff";
-            an4.innerHTML ="true";
+            question.innerHTML ="Who is largely responsible for breaking the German Enigma codes, created a test that provided a foundation for artificial intelligence?";
+            an1.innerHTML ="Alan Turing";
+            an2.innerHTML ="Jeff Bezos";
+            an3.innerHTML ="George Boole";
+            an4.innerHTML ="Charles Babbage";
         break;
     }
 }
